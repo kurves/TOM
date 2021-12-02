@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+
+  font-size:30px;
+  font-weight:bolder;
+}
+.input{
+  margin-top:50px;
+  
+
+}
+.todoinputt{
+  padding-right:70px;
+ padding-left:20px;
+  padding-top:30px;
+  border:2px solid blue;
+}
+.todoinput{
+  margin-left:50px;
+padding-right:50px;
+  padding-top:30px;
+ background-color:blue;
+  color:white;
+  font-size:15px;
+border:none;
+margin-bottom:40px;
+
+}
+.task-btn{
+border-bottom:1px solid black;
+  padding-inline:20px;
+  padding-block:10px;
+  outline:none;
+  background-color:white;
+  font-size:16px;
+ list-style-type:none;
+
+
+  
+}
+.task-btn:hover{
+  background-color:skyBlue;
+}
+.fatrash{
+  padding-inline:20px;
+  padding-block:10px;
+  margin-left:10px;
+}
+.facheck{
+padding-inline:20px;
+  padding-block:11px;
+}
+.fastar{
+
+
+padding-inline:20px;
+  padding-block:11px;
+margin-left:10px;
+
+}
+.h-task-btn{
+color:red;
+  border-bottom:2px groove  black; 
+  padding-inline:20px;
+  padding-block:10px;
+  outline:none;
+  background-color:white;
+  font-size:16px;
+ list-style-type:none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
