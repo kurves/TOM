@@ -1,7 +1,6 @@
 Would it really be a complete React tutorial without a simple todo app guide through?
-I created this simple todo app using react hooks. It's a simple app that takes a task,delete and highlight the task.
-I initialized my project using the React npm create-react-app.
-I first created a components folder in the src public folder. The components folder contained the todo,todoapp and todolist components.
+I created this simple todo app using react hooks. It's a simple app that takes in a task, deletes and highlights the task.
+I first created a components' folder in the src public folder. The components folder contained the todo,todoapp and todolist components.
 The 'Todo component' contains the logic for the individual todo.
 
  ![Todo1](https://user-images.githubusercontent.com/84717663/144415970-f3143993-1ead-418b-acb8-be8568f3746f.PNG)
@@ -11,7 +10,7 @@ The 'Todo component' contains the logic for the individual todo.
 
 ![completed](https://user-images.githubusercontent.com/84717663/144417287-7065804f-a55c-43ef-831d-78b9a0238e4a.PNG)
 
-The delete button deletes a task if the selsected item matches the todo's id. I used the Math.random() function to generate the ids. It isn't a reliable a way to generate ids for huge projects, use a designated library instead.
+The delete button deletes a task if the selected item matches the todo's id. I used the Math.random() function to generate the ids. It isn't a reliable a way to generate ids for huge and real life projects, use a designated library instead.
 
 
 ![delete](https://user-images.githubusercontent.com/84717663/144417740-9c426866-2704-4dec-a4a6-ad5c8301d582.PNG)
@@ -21,9 +20,7 @@ Don't forget to define the following states at the top of your 'Todo' component.
 
 ![state](https://user-images.githubusercontent.com/84717663/144418735-1d2661cb-50e4-439c-a307-8887016cc4c3.PNG)
 
-
-Next up is the "TodoList" component. this component will the parent component for our 'Todo' component. It takes the todos and renders each individual 'Todo' into a list.
-
+Next up is the "TodoList" component. This component will be the parent component for our 'Todo' component. It takes the todos and renders each individual 'Todo' into a list.
 
 ![todolist](https://user-images.githubusercontent.com/84717663/144420236-23913051-38a9-42be-af80-74466ebdbdaa.PNG)
 
@@ -42,7 +39,7 @@ The input takes the 'handleChange' function.
  
 ![handleChangetodo](https://user-images.githubusercontent.com/84717663/144424186-d285a1cd-73ac-4661-a9dc-547047d5c4a9.PNG)
 
-I also updated the todos using the 'addTodo function', which takes the original todos presents and those that we input through keying in.
+I also updated the todos using the 'addTodo function', which takes the original todos present and those that we input through keying in.
 
 
 ![addTodo](https://user-images.githubusercontent.com/84717663/144424605-a8cceb2c-1716-46f2-8238-890cfe4d3d54.PNG)
